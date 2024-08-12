@@ -1,4 +1,4 @@
-Aqui está um exemplo de README para o seu projeto de landing page:
+
 
 ---
 
