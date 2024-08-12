@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BalleCoffee</title>
+    <link rel="stylesheet" href="src/styles/style.css">
+    <meta name="description" content="Explore dezenas de variações da bebida favorita entre os devs ao redor mundo!">
+</head>
+<body>
+    <header>
+        <nav>
+            <span class="logo">ballecoffee</span>
+            <ul class="menu">
+                <li><a>Home</a></li>
+                <li><a>Produto</a></li>
+                <li><a>Equipe</a></li>
+                <li><a>Contato</a></li>
+        </ul>
+        <a class="paginas" href="https://github.com/analuizacandida" target="_blank">Github</a>
+        </nav>
+    </header>
+
+    <main id="home">
+        <div class="principal">
+            <section class="hero">
+                <header class="hero-conteudo">
+                    <span class="destaque marrom">Novidade</span>
+                    <h1>Encontre a receita perfeita!</h1>
+                    <hr/>
+                    <h2 class="hero-subtitulo">Explore dezenas de variações da bebida favorita entre os devs ao redor mundo!</h2>
+                </header>
+                <div class="hero-images-container">
+                    <figure><img src="assets/coffee-12.webp" alt="Café 1"/></figure>
+                    <figure><img src="assets/coffee-11.webp" alt="Café 2"/></figure>
+                    <figure><img src="assets/coffee-10.jpeg" alt="Café 3"/></figure>
+                    <figure><img src="assets/coffee-9.webp" alt="Café 4"/></figure>
+                    <figure><img src="assets/coffee-8.webp" alt="Café 5"/></figure>
+                    <figure><img src="assets/coffee-7.webp" alt="Café 6"/></figure>
+                    <figure><img src="assets/coffee-6.webp" alt="Café 7"/></figure>
+                    <figure><img src="assets/coffee-5.webp" alt="Café 8"/></figure>
+                    <figure><img src="assets/coffee-4.jpeg" alt="Café 9"/></figure>
+                    <figure><img src="assets/coffee-3.webp" alt="Café 10"/></figure>
+                    <figure><img src="assets/coffee-2.webp" alt="Café 11"/></figure>
+                    <figure><img src="assets/coffee-1.webp" alt="Café 12"/></figure>
+                    <figure><img src="assets/coffee-8.webp" alt="Café 5"/></figure>
+                </div>
+            </section>
+        </div>
+
+        <!-- Seção do Produto -->
+        <section class="produto" id="produto">
+            <h2 class="produto-titulo">Nosso Produto</h2>
+            <div class="produto-container">
+                <img src="assets/maquina-produto.webp" alt="Máquina de Café" class="produto-imagem"/>
+                <div class="produto-descricao">
+                    <p>Desenvolvida com a mesma dedicação que você coloca no seu código, nossa máquina de café foi projetada para oferecer o combustível perfeito durante suas sessões de trabalho. Com uma interface simples e eficiente, preparar seu café favorito se torna tão fácil quanto rodar um script.</p>
+                </div>
+                <img src="assets/produto2.webp" alt="Máquina de Café" class="produto-imagem"/>
+                <div class="produto-descricao">
+                    <p>A BalleCoffee não é apenas uma máquina, é uma parceira de trabalho. Com controles precisos e opções de personalização, ela permite que você crie o café perfeito para cada momento do dia, mantendo você energizado e inspirado durante suas maratonas de codificação.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção da Equipe -->
+        <section class="equipe" id="equipe">
+            <h2 class="equipe-titulo">Conheça a Nossa Equipe</h2>
+            <div class="equipe-container">
+                <div class="equipe-membro">
+                    <img src="assets/equipe-mebro1.webp" alt="Amanda" class="equipe-foto"/>
+                    <h3>Amanda</h3>
+                    <p>CEO & Fundadora</p>
+                </div>
+                <div class="equipe-membro">
+                    <img src="assets/carlos.jpeg" alt="Carlos Eduardo" class="equipe-foto"/>
+                    <h3>Carlos Eduardo</h3>
+                    <p>CTO & Co-Fundador</p>
+                </div>
+                <div class="equipe-membro">
+                    <img src="assets/fernanda.webp" alt="Fernanda Souza" class="equipe-foto"/>
+                    <h3>Fernanda Souza</h3>
+                    <p>Designer de Produto</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção do Formulário de Inscrição -->
+        <section class="contato" id="contato">
+            <h2 class="contato-titulo">Inscreva-se para Receber Novidades</h2>
+            <form action="#" method="POST" class="contato-formulario">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p class="footer-copy">Copyright &lt;CODEFEE /&gt; 2024</p>
+        <p class="footer-autor">Feito com muito ❤ e café por <a class="paginas" href="https://www.linkedin.com/in/ana-lu%C3%ADza-candida-0829a6258/" target="_blank">Ana Luiza Candida</a> </p>
+    </footer>
+</body>
+</html>
