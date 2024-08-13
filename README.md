@@ -54,6 +54,4 @@ Este projeto consiste em uma landing page para um produto fictício chamado **Ba
 
 Se você tiver alguma dúvida ou sugestão, por favor, entre em contato com [Ana Luiza Candida](https://www.linkedin.com/in/ana-lu%C3%ADza-candida-0829a6258/).
 
----
 
-Você pode ajustar o conteúdo conforme necessário para se adequar aos detalhes específicos do seu projeto e às suas preferências.
